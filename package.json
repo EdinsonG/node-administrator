@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "zip": "zip -r dist.zip .next public package.json next.config.mjs node_modules"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

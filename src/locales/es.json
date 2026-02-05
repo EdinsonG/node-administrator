@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "ID": "ID",
+    "parentID": "ID Padre",
+    "title": "Título",
+    "actions": "Acciones",
+    "root": "Raíz",
+    "currentLevel": "Nivel actual: {item}"
+  },
+  "generic": {
+    "main": "Principal",
+    "sidebarDashboard": "Tablero",
+    "sidebarDescription": "Administre sus nodos de manera eficiente",
+    "nodes": "Nodos",
+    "success": "Operación exitosa",
+    "error": "Error del sistema",
+    "info": "Información",
+    "confirm": "Confirmar acción"
+  },
+  "modals": {
+    "titleNew": "Crear nuevo nodo",
+    "titleDelete": "Eliminar nodo",
+    "descriptionNewParent": "Se creará un nodo en el nivel raíz.",
+    "descriptionNewChild": "Se creará un nodo hijo bajo el ID: {item}.",
+    "descriptionDelete": "¿Está seguro que desea eliminar el nodo ID: {item}? Esta acción no se puede deshacer.",
+    "create": "Crear",
+    "delete": "Eliminar",
+    "cancel": "Cancelar"
+  },
+  "alerts": {
+    "createSuccess": "El nodo ID: {item} se creó correctamente.",
+    "createRootSuccess": "El nodo raíz se creó correctamente.",
+    "deleteSuccess": "El nodo ID: {item} fue eliminado.",
+    "fetchError": "No se pudo obtener la información del nodo ID: {item}.",
+    "hasChildrenError": "El nodo ID: {item} tiene hijos registrados y no puede ser eliminado.",
+    "genericError": "Ocurrió un error inesperado al procesar el nodo.",
+    "noChildren": "El nodo ID: {item} es un nodo final y no tiene hijos para mostrar.",
+    "navigationError": "Ocurrió un error al intentar acceder a los hijos."
+  },
+  "buttons": {
+    "newRoot": "Nuevo nodo raíz",
+    "goBack": "Volver al nodo principal",
+    "childNode": "Ver nodos hijos",
+    "addNode": "Agregar nodo hijo",
+    "deleteNode": "Eliminar nodo"
+  },
+  "messages": {
+    "somethingwentWrong": "Algo salió mal. Por favor, intente nuevamente.",
+    "pleaseTryAgain": "Por favor, inténtelo de nuevo mas tarde."
+  },
+  "language": {
+    "change": "Cambiar idioma a {item}",
+    "spanish": "Español",
+    "english": "Inglés"
+  }
+}

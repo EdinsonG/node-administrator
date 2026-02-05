@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "ID": "ID",
+    "parentID": "Parent ID",
+    "title": "Title",
+    "actions": "Actions",
+    "root": "Root",
+    "currentLevel": "Current level: {item}"
+  },
+  "generic": {
+    "main": "Main",
+    "sidebarDashboard": "Dashboard",
+    "sidebarDescription": "Manage your nodes efficiently",
+    "nodes": "Nodes",
+    "success": "Successful operation",
+    "error": "System error",
+    "info": "Information",
+    "confirm": "Confirm action"
+  },
+  "modals": {
+    "titleNew": "Create new node",
+    "titleDelete": "Delete node",
+    "descriptionNewParent": "A node will be created at the root level.",
+    "descriptionNewChild": "A child node will be created under ID: {item}.",
+    "descriptionDelete": "Are you sure you want to delete node ID: {item}? This action cannot be undone.",
+    "create": "Create",
+    "delete": "Delete",
+    "cancel": "Cancel"
+  },
+  "alerts": {
+    "createSuccess": "Node ID: {item} was created successfully.",
+    "createRootSuccess": "The root node was created successfully.",
+    "deleteSuccess": "Node ID: {item} was deleted.",
+    "fetchError": "Could not retrieve information for node ID: {item}.",
+    "hasChildrenError": "Node ID: {item} has registered child nodes and cannot be deleted.",
+    "genericError": "An unexpected error occurred while processing the node.",
+    "noChildren": "The node ID: {item} is a final node and has no children to display.",
+    "navigationError": "An error occurred while trying to access the children."
+  },
+  "buttons": {
+    "newRoot": "New root node",
+    "goBack": "Return to the parent node",
+    "childNode": "View child nodes",
+    "addNode": "Add child node",
+    "deleteNode": "Delete node"
+  },
+  "messages": {
+    "somethingwentWrong": "Something went wrong. Please try again.",
+    "pleaseTryAgain": "Please try again later."
+  },
+  "language": {
+    "change": "Change language to {item}",
+    "spanish": "Spanish",
+    "english": "English"
+  }
+}
